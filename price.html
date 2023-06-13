@@ -1,0 +1,4834 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8">
+  <title>Nile Egypt Lab</title>
+  <link rel="icon" href="slider/padge.icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.rtl.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Tajawal', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: #2e3192 !important;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Nile Egypt Lab</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">الصفحة الرئيسية</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="price.html">أسعار التحاليل</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tour.html">وحدات المعمل</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">تواصل معنا</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container">
+    <br>
+    <table class="table table-bordered text-center" id="priceList">
+      <thead>
+        <tr>
+          <th scope="col">م</th>
+          <th scope="col">أسم التحليل</th>
+          <th scope="col">سعر التحليل</th>
+          <th scope="col">شروط التحليل</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>1</th>
+          <td>Fluid Albumin</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>Plasma Adrenalin Level</td>
+          <td>900 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>Plasma Noradrenaline Level</td>
+          <td>900 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>4</th>
+          <td>Protein in Urine randon</td>
+          <td>60 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>5</th>
+          <td>Thyroid Ab (anti-microsomal Ab/peroxidase Ab)</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>6</th>
+          <td>*IgG</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>7</th>
+          <td>1 hr blood glucose (GTC report)</td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>8</th>
+          <td>1.25 OH-Vitamin D</td>
+          <td>300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>9</th>
+          <td>1/2 hr blood glucose (GTC report)</td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>10</th>
+          <td>17-Ketosteroid (Urine)</td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>11</th>
+          <td>17-OH progesterone</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>12</th>
+          <td>2 hr blood glucose (GTC report)</td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>13</th>
+          <td>24hs Urinary creatinine</td>
+          <td>50 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>14</th>
+          <td>2Hrs&30 min blood glucose (GTC report)</td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>15</th>
+          <td>3 hr blood glucose (GTC report)</td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>16</th>
+          <td>5-HIAA</td>
+          <td>1100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>17</th>
+          <td>5-Nucleotidase</td>
+          <td>455 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>18</th>
+          <td>90 min blood glucose (GTC report)</td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>19</th>
+          <td>AZG Ratio</td>
+          <td>80 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>20</th>
+          <td>ABO.</td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>21</th>
+          <td>ACE</td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>22</th>
+          <td>ACTH AM</td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>23</th>
+          <td>ACTH PM</td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>24</th>
+          <td>ADAMTS 13</td>
+          <td>4550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>25</th>
+          <td>AFP</td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>26</th>
+          <td>ALT (SGPT)</td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>27</th>
+          <td>AMA (Anti Mitochondrial Abs)</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>28</th>
+          <td>AMH</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>29</th>
+          <td>ANA-ELISA</td>
+          <td>170 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>30</th>
+          <td>ANA IF (Anti - Nuclear Abs)</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>31</th>
+          <td>ANA IF (Titre)</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>32</th>
+          <td>ANCA-C(Antineutrophil cytoplasmic Abs</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>33</th>
+          <td>ANCA P (Antineutrophil cytoplasmic Abs </td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>34</th>
+          <td>ASCA Ig A (Anti sacromyces Ab )</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>35</th>
+          <td>ASCA Ig G (Anti sacromyces Ab )</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>36</th>
+          <td>ASO (Nephelometric quantitative )</td>
+          <td>80 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>37</th>
+          <td>ASOT</td>
+          <td>80 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>38</th>
+          <td>AST(SGOT)</td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>39</th>
+          <td>Acetone (ur).</td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>40</th>
+          <td>Acetylcholine Receptor</td>
+          <td>1300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>41</th>
+          <td>Acid Fast Bacilli (Sputum)</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>42</th>
+          <td>Acid Fast Bacilli (Ascitic)</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>43</th>
+          <td>Acid Phosphatase (prostatic-PAP)</td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>44</th>
+          <td>Acid Phosphatase (Total)</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>45</th>
+          <td>Acrosin activity</td>
+          <td>455 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>46</th>
+          <td>Acti-Fibro test</td>
+          <td>3250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>47</th>
+          <td>Activated Protein-C Resistance</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>48</th>
+          <td>Adenosin deaminase ADA</td>
+          <td>350 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>49</th>
+          <td>Aerobic C/S</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>50</th>
+          <td>Albumin in 24 hrs Urine</td>
+          <td>60 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>51</th>
+          <td>Albumin in Random Urine</td>
+          <td>60 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>52</th>
+          <td>Albumin.</td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>53</th>
+          <td>Albumin/Creatinine Ratio.</td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>54</th>
+          <td>Alcohol In Blood</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>  
+          <th>55</th>
+          <td>Alcohol in urine</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>56</th>
+          <td>Aldolase</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>57</th>
+          <td>Aldosterone</td>
+          <td>900 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>58</th>
+          <td>Aldosterone / Renin Ratio</td>
+          <td>2000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>59</th>
+          <td>Alkaline Phosphatase</td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>60</th>
+          <td>Alpha - glucosidase</td>
+          <td>325 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>61</th>
+          <td>Alpha-1-antitrypsin in stool</td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>62</th>
+          <td>Ammonia(NH3)</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>63</th>
+          <td>Amphetamine</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>64</th>
+          <td>Amylase</td>
+          <td>80 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>65</th>
+          <td>Amylase in urine.</td>
+          <td>80 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>66</th>
+          <td>Anaerobic C/S</td>
+          <td>160 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>67</th>
+          <td>Androstenedione</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>68</th>
+          <td>Anion Gap.</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>69</th>
+          <td>Anti C1q ab</td>
+          <td>2000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>70</th>
+          <td>Anti CCP</td>
+          <td>500 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>71</th>
+          <td>Anti Cardiolipin IgG</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>72</th>
+          <td>Anti Cardiolipin IgM</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>73</th>
+          <td>Anti Centromere Abs.</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>74</th>
+          <td>Anti DGP IgA</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>75</th>
+          <td>Anti DGP IgG</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>76</th>
+          <td>Anti Filaria .Ab</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>77</th>
+          <td>Anti GBM</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>78</th>
+          <td>Anti Histonces Abs.</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>79</th>
+          <td>Anti Islet Cells Antibody</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>80</th>
+          <td>Anti Jo 1 Ab</td>
+          <td>500 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>81</th>
+          <td>Anti La (SSB)</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>82</th>
+          <td>Anti MCV</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>83</th>
+          <td>Anti MOG ( anti-myelin oligodendrocyte glycoprotein)</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>84</th>
+          <td>Anti MuSK (muscle specific tyrosine kinase)</td>
+          <td>4550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>85</th>
+          <td>Anti NMDA - receptors</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>86</th>
+          <td>Anti Rh Titre (Anti-D)</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>87</th>
+          <td>Anti Ro (SSA)</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>88</th>
+          <td>Anti Scl 70</td>
+          <td>300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>89</th>
+          <td>Anti Smith Abs</td>
+          <td>300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>90</th>
+          <td>Anti Sperm igm</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>91</th>
+          <td>Anti Thyroid Ab (thyroglobulin Ab)</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>92</th>
+          <td>Anti endomysium Ab IgA</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>93</th>
+          <td>Anti endomysium Ab IgG</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>94</th>
+          <td>Anti sperm Ab (semen)</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>95</th>
+          <td>Anti thrombin  III</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>96</th>
+          <td>Anti - Infliximab</td>
+          <td>3900 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>97</th>
+          <td>Anti - Keratin Ab (AKA)</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>98</th>
+          <td>Anti - Phospholipid IgG</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>99</th>
+          <td>Anti - Phospholipid IgM</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>100</th>
+          <td>Anti - Smooth Muscle Abs (ASMA)</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>101</th>
+          <td>Anti - Asialoglycoprotein receptor (ASGPR) (IgG)</td>
+          <td>750 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>102</th>
+          <td>Anti - DGP Ab</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>103</th>
+          <td>Anti - Desmoglein-1 IgG</td>
+          <td>2000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>104</th>
+          <td>Anti - Desmoglein-3 IgG</td>
+          <td>2000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>105</th>
+          <td>Anti - GAD antibody</td>
+          <td>1300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>106</th>
+          <td>Anti - Gliadin (IgA)</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>107</th>
+          <td>Anti - Gliadin (IgG)</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>108</th>
+          <td>Anti - Histones Ab</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>109</th>
+          <td>Anti-Intrinsic Factor(Ab)</td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>110</th>
+          <td>Anti-Myeloperxidase</td>
+          <td>450 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>111</th>
+          <td>Anti-Neuronal-Ab</td>
+          <td>750 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>112</th>
+          <td>Anti-Ovarian antibodies</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>113</th>
+          <td>Anti-Parietal Cell Abs (APA)</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>114</th>
+          <td>Anti-perinuclear factor(APF)</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>115</th>
+          <td>Anti-Phospholipase A2 receptor (Anti-PLA2R)</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>116</th>
+          <td>Anti-proteinase-3</td>
+          <td>450 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>117</th>
+          <td>Anti-Reticulin Ab</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>118</th>
+          <td>Anti-Ribosomal RNA</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>119</th>
+          <td>Anti-Sperm Ab. (IgG)</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>120</th>
+          <td>Anti-Striated muscle antibodies</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>121</th>
+          <td>Anti-plasmodium IgG</td>
+                      <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>122</th>
+          <td>Antidiuretic Hormone</td>
+          <td>700 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>123</th>
+          <td>Apolipoprotein A</td>
+          <td>260 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>124</th>
+          <td>Apolipoprotein B</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>125</th>
+          <td>Aquaporin-4 Ab. (AQp4)</td>
+          <td>2000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>126</th>
+          <td>Ascitc Fluid Amylase</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>127</th>
+          <td>Ascitc Fluid ADA</td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>128</th>
+          <td>Ascitc Fluid Cells</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>129</th>
+          <td>Ascitic Fluid Cholesterol</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>130</th>
+          <td>Ascitic Fluid Glucose</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>131</th>
+          <td>Ascitic Fluid LDH</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>132</th>
+          <td>Ascitic Fluid Protein</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>133</th>
+          <td>Ascitic Fluid C/S</td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>134</th>
+          <td>Aspergillus igg</td>
+          <td>1000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>135</th>
+          <td>Automated PCR for HEV</td>
+          <td>الرجوع للمعمل </td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>136</th>
+          <td>B-HCG (tumer marker)</td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>137</th>
+          <td>B2-Glycoprotein (IgG)</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>138</th>
+          <td>B2-Glycoprotein (IgM)</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>139</th>
+          <td>BCR-ABL (Gene Xpert)</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>140</th>
+          <td>BCR-ABL (Major)</td>
+          <td>1300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>141</th>
+          <td>BCR-ABL (Minor) Quantitative</td>
+          <td>1300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>142</th>
+          <td>BM trephine</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>143</th>
+          <td>BNP ( B-type natriuretic peptide)</td>
+          <td>845 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>144</th>
+          <td>BUN</td>
+          <td>50 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>145</th>
+          <td>Barbiturates</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>146</th>
+          <td>Bartonella henselae Ab. For Cat scratch disease (by IFA)</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>147</th>
+          <td>Bence Jones protein</td>
+          <td>70 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>148</th>
+          <td>Benzodiaszepine</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>149</th>
+          <td>Beta 2 Microglobulin</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>150</th>
+          <td>Beta 2 Transferrin for Rhinorrheal Fluid</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>151</th>
+          <td>Beta 2 Microglobulin in urine</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>152</th>
+          <td>Beta HCG Quantitative</td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>153</th>
+          <td>Bicarbonate</td>
+          <td>300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>154</th>
+          <td>Bile Acids</td>
+          <td>450 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>155</th>
+          <td>Bilharzial Ab.</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>156</th>
+          <td>Bilharzial Ag in urine</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>157</th>
+          <td>Bilharzial Antigen</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>158</th>
+          <td>Bilirubin (Direct)</td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>159</th>
+          <td>Bilirubin (Total)</td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>160</th>
+          <td>Bleeding time</td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>161</th>
+          <td>Blood culture</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>162</th>
+          <td>Blood Gases profile</td>
+          <td>350 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>163</th>
+          <td>Blood Glucose 2 hrs P.P</td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>164</th>
+          <td>Blood Glucose fasting</td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>165</th>
+          <td>Blood Urea</td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>166</th>
+          <td>Blood gases test</td>
+          <td>350 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>167</th>
+          <td>Body Fluid Cells</td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>168</th>
+          <td>Borrelia burgdorferi IgG</td>
+          <td>1820 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>169</th>
+          <td>Borrelia burgdorferi IgM</td>
+          <td>1820 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>170</th>
+          <td>Bottle C/S Big</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>171</th>
+          <td>Bottle C/S Small</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>172</th>
+          <td>Brucella (Latex) abortus&mellitansis</td>
+          <td>80 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>173</th>
+          <td>Brucella  IgG</td>
+          <td>390 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>174</th>
+          <td>Brucella  IgM</td>
+          <td>390 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>175</th>
+          <td>C-Peptide (Fasting)</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>176</th>
+          <td>C-Peptide (pp)</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>177</th>
+          <td>C-Peptide (Random)</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>178</th>
+          <td>C1 Estrase Inhibitor</td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>179</th>
+          <td>C1q</td>
+          <td>1300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>180</th>
+          <td>C2</td>
+          <td>1300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>181</th>
+          <td>C3</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>182</th>
+          <td>C4</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>183</th>
+          <td>C5</td>
+          <td>1300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>184</th>
+          <td>CA 125</td>
+          <td>170 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>185</th>
+          <td>CA 15.3</td>
+          <td>170 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>186</th>
+          <td>CA 19.9</td>
+          <td>170 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>187</th>
+          <td>CA 242</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>188</th>
+          <td>CA 50</td>
+          <td>1300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>189</th>
+          <td>CA 72.4</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>190</th>
+          <td>CBC</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>191</th>
+          <td>CD 10</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>192</th>
+          <td>CD 103</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>193</th>
+          <td>CD 117</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>194</th>
+          <td>CD 11B</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>195</th>
+          <td>CD 11C</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>196</th>
+          <td>CD 13</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>197</th>
+          <td>CD 14</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>198</th>
+          <td>CD 15</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>199</th>
+          <td>CD 16</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>200</th>
+          <td>CD 16 / CD 56 (NK Cells)</td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>201</th>
+          <td>CD 18</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>202</th>
+          <td>CD 19</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>203</th>
+          <td>CD 1A</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>204</th>
+          <td>CD 2</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>205</th>
+          <td>CD 20</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>206</th>
+          <td>CD 200</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>207</th>
+          <td>CD 22</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>208</th>
+          <td>CD 23</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>209</th>
+          <td>CD 25</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>210</th>
+          <td>CD 3</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>211</th>
+          <td>CD 30</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>212</th>
+          <td>CD 33</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>213</th>
+          <td>CD 34</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>214</th>
+          <td>CD 38</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>215</th>
+          <td>CD 4</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>216</th>
+          <td>CD 4/CD 8 Ratio</td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>217</th>
+          <td>CD 41</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>218</th>
+          <td>CD 45</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>219</th>
+          <td>CD 5</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>220</th>
+          <td>CD 55</td>
+          <td>600 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>221</th>
+          <td>CD 55 /CD 59(PNH)</td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>222</th>
+          <td>CD 56</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>223</th>
+          <td>CD 59</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>224</th>
+          <td>CD 61</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>225</th>
+          <td>CD 7</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>226</th>
+          <td>CD 79a</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>227</th>
+          <td>CD 8</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>228</th>
+          <td>CD 138</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>229</th>
+          <td>CD 42B</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>230</th>
+          <td>CD 42a</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>231</th>
+          <td>CD 79B</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>232</th>
+          <td>CEA</td>
+          <td>170 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>233</th>
+          <td>CH50</td>
+          <td>300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>234</th>
+          <td>CK-MB</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>235</th>
+          <td>CK total</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>236</th>
+          <td>CMV IgG</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>237</th>
+          <td>CMV IgM</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>238</th>
+          <td>CMV-DNA by PCR (Qualitative)</td>
+          <td>975 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>239</th>
+          <td>CRP</td>
+          <td>80 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>240</th>
+          <td>CRP Nephlometric (High Sensitive)</td>
+          <td>80 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>241</th>
+          <td>CRP Quantitative by Cobas</td>
+          <td>80 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>242</th>
+          <td>CSF ADA</td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>243</th>
+          <td>CSF C/S</td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>244</th>
+          <td>CSF Cells</td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>245</th>
+          <td>CSF Chloride</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>246</th>
+          <td>CSF Glucose</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>247</th>
+          <td>CSF LDH</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>248</th>
+          <td>CSF Protein</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>249</th>
+          <td>Calcitonin</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>250</th>
+          <td>Calcium (Ionized)</td>
+          <td>50 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>251</th>
+          <td>Calcium (Total)</td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>252</th>
+          <td>Calcium /Oxalate Ratio.</td>
+          <td>900 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>253</th>
+          <td>Calcium /Phosphorus Ratio.</td>
+          <td>70 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>254</th>
+          <td>Calcium /Creat.ratio.</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>255</th>
+          <td>Calcium In 24 hrs Urine</td>
+          <td>50 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>256</th>
+          <td>Calcium In  Urine</td>
+          <td>50 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>257</th>
+          <td>Calprotectin in stool</td>
+          <td>700 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>258</th>
+          <td>Campylobacter Ag</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>259</th>
+          <td>Cannabinoids</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>260</th>
+          <td>Casein IgG</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>261</th>
+          <td>Catecholamines</td>
+          <td>1100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>262</th>
+          <td>Catecholamines In Urine</td>
+          <td>1100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>263</th>
+          <td>Ceruloplasmin</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>264</th>
+          <td>Cervical swab C/S</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>265</th>
+          <td>Chemical Examination Pericardial Fluid.</td>
+          <td>300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>266</th>
+          <td>Chemical Examination Peritoneal Fluid.</td>
+          <td>300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>267</th>
+          <td>Chemical Examination Pleural Fluid.</td>
+          <td>300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>268</th>
+          <td>Chemical Examination Synovial Fluid.</td>
+          <td>300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>269</th>
+          <td>Chlamydia Ag</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>270</th>
+          <td>Chlamydia IgG</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>271</th>
+          <td>Chlamydia IgM</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>272</th>
+          <td>Chloride</td>
+          <td>70 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>273</th>
+          <td>Chloride "Urine"</td>
+          <td>70 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>274</th>
+          <td>Chloride / Creatinine Ratio</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>275</th>
+          <td>Chloride in 24 hrs Urine</td>
+          <td>70 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>276</th>
+          <td>Cholesterol</td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>277</th>
+          <td>Cholinestarase</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>278</th>
+          <td>Chromogranin A</td>
+          <td>1300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>279</th>
+          <td>Citrate in 24 hrs Urine</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>280</th>
+          <td>Citric Acid</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>281</th>
+          <td>Clostridium difficile</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>282</th>
+          <td>Clotting time</td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>283</th>
+          <td>Cocaine</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>284</th>
+          <td>Cold agglutinins</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>285</th>
+          <td>Coomb 's Direct</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>286</th>
+          <td>Coomb 's Indirect</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>287</th>
+          <td>Copper "Urine"</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>288</th>
+          <td>Copper (cu++)</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>289</th>
+          <td>Coronavirus COVID-19 IgG</td>
+          <td>500 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>290</th>
+          <td>Cortisol AM</td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>291</th>
+          <td>Cortisol In Urine</td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>292</th>
+          <td>Cortisol PM</td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>293</th>
+          <td>Cortisol Random</td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>294</th>
+          <td>Covid-19 Spike Ab Quantitative</td>
+          <td>455 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>295</th>
+          <td>Coxiella burnetii Phase - 2 IgM</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>296</th>
+          <td>Coxiella burnetii Phase - 1 IgA</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>297</th>
+          <td>Coxiella burnetii Phase - 1 IgG</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>298</th>
+          <td>Coxiella burnetii Phase - 1 IgM</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>299</th>
+          <td>Coxsackie Virus IgG</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>300</th>
+          <td>Coxsackie Virus IgM</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>301</th>
+          <td>Creatinine</td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>302</th>
+          <td>Creatinine clearence</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>303</th>
+          <td>Creatinine in 24hs Urine</td>
+          <td>50 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>304</th>
+          <td>Creatinine in Rondom Urine</td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>305</th>
+          <td>Cryoglobulin</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>306</th>
+          <td>Cyclosporine</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>307</th>
+          <td>Cystatin C</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>308</th>
+          <td>Cyctology (other).</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>309</th>
+          <td>Cyctology Blkeny</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>310</th>
+          <td>Cyctology Elia</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>311</th>
+          <td>Cyctology Elkomos</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>312</th>
+          <td>D-dimer</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>313</th>
+          <td>D-dimer (pregnant)</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>314</th>
+          <td>DHEA</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>315</th>
+          <td>DHEA-S</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>316</th>
+          <td>DHT</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>317</th>
+          <td>DNA(Anti DNA DS)ELISA</td>
+          <td>170 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>318</th>
+          <td>DNA(Anti DNA DS) IF</td>
+          <td>170 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>319</th>
+          <td>DNA Fragmentation index</td>
+          <td>1500 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>320</th>
+          <td>Depakine(Valporic Acid)</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>321</th>
+          <td>Digoxin (Lanoxin)</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>322</th>
+          <td>Double test</td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>323</th>
+          <td>Drug Abuse profile</td>
+          <td>170 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>324</th>
+          <td>EBV - IgG</td>
+          <td>170 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>325</th>
+          <td>EBV - IgM</td>
+          <td>170 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>326</th>
+          <td>EBV by PCR (Qualitative)</td>
+          <td>1100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>327</th>
+          <td>EBV - EBNA (IgG) by ELISA</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>328</th>
+          <td>EBV - EBNA (IgM) by ELISA</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>329</th>
+          <td>EBV - NA - IgM</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>330</th>
+          <td>ESR</td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>331</th>
+          <td>Echinococcus granulosus Ab</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>332</th>
+          <td>Entamoeba histolytica Ab</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>333</th>
+          <td>Entamoeba histolytica Ag</td>
+          <td>260 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>334</th>
+          <td>Eosinophil in urine</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>335</th>
+          <td>Epanutin (Phenytoin)</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>336</th>
+          <td>Erythropoietin (EPO)</td>
+          <td>1170 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>337</th>
+          <td>Estradiol(E2)</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>338</th>
+          <td>Estrogen(E3)</td>
+          <td>600 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>339</th>
+          <td>Extended Metabolic Profile</td>
+          <td>1755 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>340</th>
+          <td>Extractable nuclear antigen (ENA)</td>
+          <td>110 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>341</th>
+          <td>FDPs</td>
+          <td>الرجوع للمعمل</td>
+          <td>صيام من6-8 ساعات مسموح بشرب المياه فقط </td>
+        </tr>
+<tr>
+          <th>342</th>
+          <td>FENa (Fractional excretion of Na)</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>343</th>
+          <td>FISH t(16:16) inv 16</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>344</th>
+          <td>FMC-7</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>345</th>
+          <td>FMF by PCR</td>
+          <td>1200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>346</th>
+          <td>FSH</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>347</th>
+          <td>FTA for Syphilis</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>348</th>
+          <td>Factor II</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>349</th>
+          <td>Factor IX</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>350</th>
+          <td>Factor V</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>351</th>
+          <td>Factor V Leiden Mutation by PCR</td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>352</th>
+          <td>Factor V II</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>353</th>
+          <td>Factor V III</td>
+          <td>1300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>354</th>
+          <td>Factor V III Inhibitor</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>355</th>
+          <td>Factor X</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>356</th>
+          <td>Factor XI</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>357</th>
+          <td>Factor XII</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>358</th>
+          <td>Factor XIII</td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>359</th>
+          <td>Fasciola Antibod</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>360</th>
+          <td>Fasting Blood Glucose (GTG)</td>
+          <td>1300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>361</th>
+          <td> Fecal Pancreatic elastase.</td>
+          <td>170 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>362</th>
+          <td> Ferritin </td>
+          <td>200 ج.م</td>
+          <td>يفضل الصيام من 6 - 8 ساعات والحضور صباحا بعد انتهاء فترة الحيض وقبل العلاج بالتحديد أو نقل الدم</td>
+        </tr>
+<tr>
+          <th>363</th>
+          <td> Fibrinogen </td>
+          <td>3900 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>364</th>
+          <td> Fibro - max test </td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>365</th>
+          <td> Filaria Ab by ELISA </td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>366</th>
+          <td> Filaria Film </td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>367</th>
+          <td> Flow cytometry panel </td>
+          <td>الرجوع الي المعمل  ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>368</th>
+          <td> Fluid Chloride </td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>369</th>
+          <td> Fluid Gram's stained film </td>
+          <td>70 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>370</th>
+          <td> Fluid LDH </td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>371</th>
+          <td> Fluid TLC </td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>372</th>
+          <td> Fluid Triglycerides </td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>373</th>
+          <td> Fluid protein. </td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>374</th>
+          <td> Folic Acid </td>
+          <td>700 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>375</th>
+          <td> Free Cortisol In Urine </td>
+          <td>1300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>376</th>
+          <td> Free Cortisol In Saliva </td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>377</th>
+          <td> Free Kappa Light Chain (Serum) </td>
+          <td>2000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>378</th>
+          <td> Free Kappa Light Chain (Urine) </td>
+          <td>2000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>379</th>
+          <td> Free Lambde Light Chain (Serum) </td>
+          <td>2000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>380</th>
+          <td> Free Lambde Light Chain (Urine) </td>
+          <td>2000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>381</th>
+          <td> Free Metanephrine </td>
+          <td>1000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>382</th>
+          <td> Free Normetanephrine </td>
+          <td>1000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>383</th>
+          <td> Free T3 </td>
+          <td>110 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>384</th>
+          <td> Free T4 </td>
+          <td>110 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>385</th>
+          <td> Free Thyroxine Index (F.T.I) </td>
+          <td>110 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>386</th>
+          <td> Free androgen index </td>
+          <td> الرجوع للمعمل ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>387</th>
+          <td> Fructosamine </td>
+          <td>110 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>388</th>
+          <td> Fructose In Semen </td>
+          <td>170 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>389</th>
+          <td> Fungus C/S </td>
+          <td>160 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>390</th>
+          <td> G6PD </td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>391</th>
+          <td> G6PD (Qualitative) </td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>392</th>
+          <td> GGT </td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>393</th>
+          <td> Galactomannan Ag </td>
+          <td>1300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>394</th>
+          <td> Gastrin Level </td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>395</th>
+          <td> Giardia Lamblia Ag </td>
+          <td> الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>396</th>
+          <td> Globulin </td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>397</th>
+          <td> Glucose Random </td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>398</th>
+          <td> Gluten IgG </td>
+          <td>الرجوع للمعمل </td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>399</th>
+          <td> Glycated Haemoglobin (Hb A1C) </td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>400</th>
+          <td> Gonorrhea Gram stain </td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>401</th>
+          <td> Gram Stain </td>
+          <td>70 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>402</th>
+          <td> Growth Hormone (Basal) </td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>403</th>
+          <td> Growth Hormone (Stimulation Test) </td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>404</th>
+          <td> H-pylori' IgG' </td>
+          <td>1000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>405</th>
+          <td> H-pylori' IgG' </td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>406</th>
+          <td></td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>407</th>
+          <td> H-pylori' IgA' </td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>408</th>
+          <td> H-pylori' IgM' </td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>409</th>
+          <td> HAV - IgM </td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>410</th>
+          <td> HAV - Ab. (IgG) </td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>411</th>
+          <td> HB Electropheresis </td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>412</th>
+          <td> HB Variants by HPLC </td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>413</th>
+          <td> HBV - DNA - PCR Roch </td>
+          <td>1100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>414</th>
+          <td> HBV - DNA by Real Time PCR (Qualitative) </td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>415</th>
+          <td> HBV - DNA by Real Time PCR (Qualitative). </td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>416</th>
+          <td> HBV - DNA by Real Time PCR (Qualitative) by Roch </td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>417</th>
+          <td> HBc IgM </td>
+          <td>180 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>418</th>
+          <td> HBc Total </td>
+          <td>180 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>419</th>
+          <td> HBe Ag </td>
+          <td>180 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>420</th>
+          <td> HBe Ab </td>
+          <td>180 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>421</th>
+          <td> HBs Ab </td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>422</th>
+          <td> HBs Ag </td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>423</th>
+          <td> HCV Ab </td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>424</th>
+          <td> HCV Genotyping </td>
+          <td>1550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>425</th>
+          <td> HCV RNA (Quantative) by ROCH </td>
+          <td>845 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>426</th>
+          <td> HCV- RNA  by ROCHE </td>
+          <td>845 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>427</th>
+          <td> HCV - RNA PCR (Quantative) by ROCH </td>
+          <td>1100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>428</th>
+          <td> HCV - RNA by Real Time PCR (Qualitative) </td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>429</th>
+          <td> HCV - RNA by Real Time PCR (Quantative) </td>
+          <td>780 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>430</th>
+          <td> HDL. </td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>431</th>
+          <td> HDV Ag </td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>432</th>
+          <td> HDV IgM </td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>433</th>
+          <td> HDV Total </td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>434</th>
+          <td> HE-4 </td>
+          <td>900 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>435</th>
+          <td> HEV IgM </td>
+          <td>450 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>436</th>
+          <td> HEV Total </td>
+          <td>450 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>437</th>
+          <td> HIV Ab </td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>438</th>
+          <td> HIV RNA PCR (Qulitative) </td>
+          <td>1100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>439</th>
+          <td> HIV by Western Blot </td>
+          <td>1800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>440</th>
+          <td> HIV - RNA by PCR (Quantative) </td>
+          <td>1100 ج.م</td>
+          <td>لا يوجد شروط </td>
+        </tr>
+<tr>
+          <th>441</th>
+          <td> HLA B27 by PCR </td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>442</th>
+          <td> HLA - Typing - class I © </td>
+          <td>.الرجوع للمعمل </td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>443</th>
+          <td> HLA - Typing - class II (DQ) </td>
+          <td>الرجوع للمعمل </td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>444</th>
+          <td> HLA cross matching </td>
+          <td>1500 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>445</th>
+          <td> HLA-B51 by PCR </td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>446</th>
+          <td> HSV 1,2 PCR </td>
+          <td>1235 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>447</th>
+          <td> HSV I IgG (Herpes simplix) </td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>448</th>
+          <td> HSV I IgM (Herpes simplix) </td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>449</th>
+          <td> HSV II IgG (Herpes simplix) </td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>450</th>
+          <td> HSV II IgM (Herpes simplix) </td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>451</th>
+          <td> HSV Multiplex Qualitative </td>
+          <td>1235 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>452</th>
+          <td> HTLV 1+2 (igg) </td>
+          <td>الرجوع للمعمل </td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>453</th>
+          <td> Haematocrit </td>
+          <td>.الرجوع للمعمل </td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>454</th>
+          <td> Haemoglobin Hb </td>
+          <td>30 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>455</th>
+          <td> Haptoglobin </td>
+          <td>170 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>456</th>
+          <td> Histamine </td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>457</th>
+          <td> Homa- IR Test </td>
+          <td>200 ج.م</td>
+          <td>صيام من 6 - 8 ساعات </td>
+        </tr>
+<tr>
+          <th>458</th>
+          <td> Homocysteine </td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>459</th>
+          <td> Human Papilloma Virus (PCR) </td>
+          <td>2000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>460</th>
+          <td> Human Papiloma Virus IgG </td>
+          <td>2000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>461</th>
+          <td> Hydatid Ab </td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>462</th>
+          <td> IGG index. </td>
+          <td>الرجوع للمعمل </td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>463</th>
+          <td> IL-6( Interleukin 6 ) </td>
+          <td>1000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>464</th>
+          <td> IgA ( Immunoglobulin G) in CSF </td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>465</th>
+          <td> IgA  Immunoglobulin </td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>466</th>
+          <td>IgE Specific (Inhalant allergens ) RAST </td>
+          <td>1100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+
+<tr>
+          <th>467</th>
+          <td> IgD( immunoglobulin D ) </td>
+          <td>1100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>468</th>
+          <td> IgE Specific (food allergens) RAST </td>
+          <td>1100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>469</th>
+          <td> IgE"Total" </td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>470</th>
+          <td> IgG (Immunoglobulin G) in CSF </td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>471</th>
+          <td> IgG Immunoglobulin </td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>472</th>
+          <td> IgG in CSF </td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>473</th>
+          <td> IgG 1 </td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>474</th>
+          <td> IgG 4 </td>
+          <td>1800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>475</th>
+          <td> IgM Immunoglobulin </td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>476</th>
+          <td> Immunophenotyping (Acute Panel) </td>
+          <td>2600 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>477</th>
+          <td> Immunophenotyping (Chronic Panel) </td>
+          <td>2200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>478</th>
+          <td> Infliximab Level </td>
+          <td>3900 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>479</th>
+          <td> Inhibin A </td>
+          <td>1550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>480</th>
+          <td> Inhibin B </td>
+          <td>1550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>481</th>
+          <td>Insulin ( Random)</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>482</th>
+          <td>Insulin Ab</td>
+          <td>325 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>483</th>
+          <td>Insulin Level (Fasting)</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>484</th>
+          <td>Insulin Level (PP)</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>485</th>
+          <td>Insulin like growth factor-1 (IGF-1)</td>
+          <td>1100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>486</th>
+          <td>Intact PTH (PTH-84)</td>
+          <td>325 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>487</th>
+          <td>Iron</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>488</th>
+          <td>Karyotyping</td>
+          <td>1100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>489</th>
+          <td>Karyotyping tissue</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>490</th>
+          <td>L.E cells</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>491</th>
+          <td>LAP Score </td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>492</th>
+          <td>LCA-Ab (Liver cytosol auto ab)</td>
+          <td>700 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>493</th>
+          <td>LDH(fluid) / LDH (serum) ratio</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>494</th>
+          <td>LDH (Lactate Dehydrogenase)</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>495</th>
+          <td>LDL (Direct)</td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>496</th>
+          <td>LDL - Cholesterol</td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>497</th>
+          <td>LH</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>498</th>
+          <td>LKM - Liver Kidney Microsomal Abs</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>499</th>
+          <td>Lactate</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>500</th>
+          <td>Lactate Csf </td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>501</th>
+          <td>Lactate / Pyruvate Ratio</td>
+          <td>600 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>502</th>
+          <td>Lactoferrin in stool</td>
+          <td>450 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>503</th>
+          <td>Lead</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>504</th>
+          <td>Leptin</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>505</th>
+          <td>Leptospira igG</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>506</th>
+          <td>Leptospira igM</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>507</th>
+          <td>Leshman's stained film</td>
+          <td>70 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>508</th>
+          <td>Leveiracetam(tiratam , keppra ,levepex)</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>509</th>
+          <td>Lipase</td>
+          <td>110 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>510</th>
+          <td>Lipoprotein (a)</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>511</th>
+          <td>Lithium</td>
+          <td>170 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>512</th>
+          <td>Lupus Anticoagulant</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>513</th>
+          <td>Mpo</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>514</th>
+          <td>MTHFR by pcr</td>
+          <td>1100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>515</th>
+          <td>Magnesium</td>
+          <td>80 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>516</th>
+          <td>Magnesium / Creatinine ratio </td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>517</th>
+          <td>Magnesium In 24hrs Urine</td>
+          <td>80 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>518</th>
+          <td>Maganesium Mg in urine (24H)</td>
+          <td>80 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>519</th>
+          <td>Malaria Film</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>520</th>
+          <td>Maternal AFP</td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>521</th>
+          <td>Measels igG</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>522</th>
+          <td>Measels igM</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>523</th>
+          <td>Metanephrines in Urine </td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>524</th>
+          <td>Methotrexate</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>525</th>
+          <td>Micro albumin in 24 hrs</td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>526</th>
+          <td>Micro albumin random</td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>527</th>
+          <td>Monospot test (paul Bunnell )</td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>528</th>
+          <td>Mumps igG</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>529</th>
+          <td>MUmps igM</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>530</th>
+          <td>Myoglobin in Blood</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>531</th>
+          <td>Myoglobin in urine</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>532</th>
+          <td>NSE (neuron specific enolase)</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>533</th>
+          <td>Nicotin in serum </td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>534</th>
+          <td>Nicotin </td>
+          <td>325 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>535</th>
+          <td>Nor-Metanephrines in urine</td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>536</th>
+          <td>Occult Blood in Stool</td>
+          <td>120 ج.م</td>
+          <td>يمتنع المريض لمدة 24 ساعة عن تناول جميع أنواع اللحوم أو الفجل أو أدوية الروماتيزم أو أي أدوية تحتوي علي الاسبرين أو الفيتامين أو الكورتيزون أو الحديد كما لا يسمح باخذ ملينات</td>
+        </tr>
+<tr>
+          <th>537</th>
+          <td>Occult HCV (pcr for HCV RNA in mononuclear cells)</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>538</th>
+          <td>Oligoclonal bands in CSf</td>
+          <td>2600 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>539</th>
+          <td>Opiate (morphine , Heroin )</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>540</th>
+          <td>Oral Glucose given (GTC report )</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>541</th>
+          <td>Oral Glucose Tolerance Test</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>542</th>
+          <td>Organic Acid in urine</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>543</th>
+          <td>Osmotic Fragility</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>544</th>
+          <td>Osteocalcin</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>545</th>
+          <td>Oxalate / Creatinine  Ratio .</td>
+          <td>900 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>546</th>
+          <td>Oxalate in 24 hrs Urine</td>
+          <td>900 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>547</th>
+          <td>Oxcarbarzepine ( Trileptal , Oxaleptal)</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>548</th>
+          <td>PAP Smear .</td>
+          <td>600 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>549</th>
+          <td>PCR Beta globin Gene Mutation</td>
+          <td>1560 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>550</th>
+          <td>PCR alpha globin Gene Mutation</td>
+          <td>1560 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>551</th>
+          <td>PCR for Chromosome Y microdeletion</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>552</th>
+          <td>PCR for H1N1 influenza virus</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>553</th>
+          <td>PCR for HLA-DQ8</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>554</th>
+          <td>PCR for HLA-Typing - ClassI (A and B) - ClassII (DRBI)</td>
+          <td>4940 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>555</th>
+          <td>PCR for JAK II (V617F)Gene Mutation Quantitative</td>
+          <td>910 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>556</th>
+          <td>PCR for Lactase and Aldolase B gene mutation</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>557</th>
+          <td>PCR for Lactase and Aldolase B gene the sugars (Lactose and Fructose)</td>
+          <td>3120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>558</th>
+          <td>PCR for Prothrombin Gene Mutation</td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>559</th>
+          <td>PCR for Prothrombin Gene Mutation</td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>560</th>
+          <td>PCR for TB by (Gene Xpert).</td>
+          <td>900 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>561</th>
+          <td>PCR for toxoplasma gondii</td>
+          <td>450 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>562</th>
+          <td>PH (Stool)</td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>563</th>
+          <td>PH (blood)</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>564</th>
+          <td>PH in Urine</td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>565</th>
+          <td>PIVKA</td>
+          <td>1300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>566</th>
+          <td>PRL</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>567</th>
+          <td>PSA ( Free )</td>
+          <td>170 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>568</th>
+          <td>PSA (Total )</td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>569</th>
+          <td>PTH</td>
+          <td>170 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>570</th>
+          <td>PTT</td>
+          <td>70 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>571</th>
+          <td>PUS Urine culture</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>572</th>
+          <td>Pancreatic Amylase</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>573</th>
+          <td>Panel Reactive Antibodies (PRA)</td>
+          <td>5200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>574</th>
+          <td>Parvovirus B19 IgG</td>
+          <td>5200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>575</th>
+          <td>Parvovirus B19 IgM</td>
+          <td>2000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>576</th>
+          <td>Pathology (Slide Review)</td>
+          <td>2000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>577</th>
+          <td>Pathology Alkhalia</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>578</th>
+          <td>Pathology El Bekiny</td>
+          <td>الرجوع للمعمل </td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>579</th>
+          <td>Pathology Elia</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>580</th>
+          <td>Pathology Elkomos</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>581</th>
+          <td>Pericardial Fluil ADA</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>582</th>
+          <td>Pericardial Fluid Cells</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>583</th>
+          <td>Pericardial Fluid Examination</td>
+          <td>300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>584</th>
+          <td>Pericardial Fluid Glucose</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>585</th>
+          <td>Pericardial Fluid LDH</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>586</th>
+          <td>Pericardial Fluid Protein</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>587</th>
+          <td>Pericardial Fluid Examination</td>
+          <td>300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>588</th>
+          <td>Phenyl Ketonria (PKU)</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>589</th>
+          <td>Phosphorous</td>
+          <td>70 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>590</th>
+          <td>Phosphorous / creatinine Ratio</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>591</th>
+          <td>Phosphorous in urine 24 hrs</td>
+          <td>70 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>592</th>
+          <td>Phosphorous in urine 24 hs</td>
+          <td>70 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>593</th>
+          <td>Physical Examination fluid</td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>594</th>
+          <td>Platelet Antibody (Direct)</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>595</th>
+          <td>Platelet Antibody (Indirect)</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>596</th>
+          <td>Platelet Function</td>
+          <td>1100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>597</th>
+          <td>Platelet adhesiveness.</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>598</th>
+          <td>Platelet Count</td>
+          <td>30 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>599</th>
+          <td>Pleural Fluid ADA</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>600</th>
+          <td>Pleural Fluid C/S</td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>601</th>
+          <td>Pleural Fluid Cells</td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>602</th>
+          <td>Pleural Fluid Cholesterol</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>603</th>
+          <td>Pleural Fluid Examination</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>604</th>
+          <td>Pleural Fluid Glucose</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>605</th>
+          <td>Pleural Fluid LDH</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>606</th>
+          <td>Pleural Fluid protein</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>607</th>
+          <td>Pleural Fluid Triglycerides</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>608</th>
+          <td>Polymyositis / Scleroderma Autoimmune diagnostic Panel</td>
+          <td>1750 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>609</th>
+          <td>Potassium in 24 hrs Urine</td>
+          <td>60 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>610</th>
+          <td>Potassium (K)</td>
+          <td>60 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>611</th>
+          <td>Potassium (urine)</td>
+          <td>60 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>612</th>
+          <td>Pre - Albumin (trans thyretin)</td>
+          <td>325 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>613</th>
+          <td>Pregnancy Test</td>
+          <td>50 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>614</th>
+          <td>Pro-BNP</td>
+          <td>700 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>615</th>
+          <td>Procalcitonin</td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>616</th>
+          <td>Progesterone</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>617</th>
+          <td>Proinsulin</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>618</th>
+          <td>Protein / Creatinine Ratio.</td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>619</th>
+          <td>Protein C</td>
+          <td>325 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>620</th>
+          <td>Protein Electrophoresis</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>621</th>
+          <td>Protein Electrophoresis (Urine)</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>622</th>
+          <td>Protein S</td>
+          <td>325 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>623</th>
+          <td>Prothrombin Time & Conc.</td>
+          <td>70 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>624</th>
+          <td>Pus C/S</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>625</th>
+          <td>Pyruvate</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>626</th>
+          <td>Quadruple test</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>627</th>
+          <td>RF Nephlometric</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>628</th>
+          <td>RF Titer</td>
+          <td>80 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>629</th>
+          <td>RIBA</td>
+          <td>1300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>630</th>
+          <td>RNP</td>
+          <td>300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>631</th>
+          <td>RPR</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>632</th>
+          <td>Random Urinary Sodium</td>
+          <td>60 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>633</th>
+          <td>Rectal Sweb</td>
+          <td>2600 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>634</th>
+          <td>Reducing Sugar in Stool</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>635</th>
+          <td>Reducing Sugar in Urine</td>
+          <td>110 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>636</th>
+          <td>Renin</td>
+          <td>1000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>637</th>
+          <td>Reticulin stain</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>638</th>
+          <td>Reticulocytic Count</td>
+          <td>80 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>639</th>
+          <td>Rh</td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>640</th>
+          <td>Rose waaler</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>641</th>
+          <td>Rota Virus Antigen in Stool</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>642</th>
+          <td>Routine aerobic culture</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>643</th>
+          <td>Rubella IgG</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>644</th>
+          <td>Rubbella IgM</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>645</th>
+          <td>S.Paratyphi "A"</td>
+          <td>30 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>646</th>
+          <td>S.Paratyphi "B"</td>
+          <td>30 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>647</th>
+          <td>S.typhi "H"</td>
+          <td>30 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>648</th>
+          <td>S.typhi "O"</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>649</th>
+          <td>SAAG</td>
+          <td>300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>650</th>
+          <td>SARS - COV -2 Antigen</td>
+          <td>300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>651</th>
+          <td>SARS-like Coronavirus</td>
+          <td>700 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>652</th>
+          <td>SARS-like Coronavirus (certified)</td>
+          <td>1400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>653</th>
+          <td>SCC Ag</td>
+          <td>2600 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>654</th>
+          <td>SHBG (Sex hormone binding globulin)</td>
+          <td>1000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>655</th>
+          <td>SLA (Soluble Live Antigen)</td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>656</th>
+          <td>Salmonella typhi IgG</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>657</th>
+          <td>Salmonella typhi IgM</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>658</th>
+          <td>Schebo test (M2 pk) Pyruvate Kinase Isoenzyme</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>659</th>
+          <td>Semen C/S</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>660</th>
+          <td>Semen analysis</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>661</th>
+          <td>Semen analysis with CASA</td>
+          <td>845 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>662</th>
+          <td>Seminal Fluid Peroxidase test</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>663</th>
+          <td>Serum Amyloid A</td>
+          <td>400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>664</th>
+          <td>Serum Immunofixation.</td>
+          <td>450 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>665</th>
+          <td>Serum Immunofixation…</td>
+          <td>1400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>666</th>
+          <td>Serum Osmolality</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>667</th>
+          <td>Sickling test</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>668</th>
+          <td>Sirolimus</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>669</th>
+          <td>Sodium (Na)</td>
+          <td>60 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>670</th>
+          <td>Sodium Urine</td>
+          <td>60 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>671</th>
+          <td>Sodium in 24 hrs Urine</td>
+          <td>60 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>672</th>
+          <td>Sodium/Creatinine Ratio</td>
+          <td>70 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>673</th>
+          <td>Soluble quantative CD 25</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>674</th>
+          <td>Specific Gravity (ur).</td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>675</th>
+          <td>Specific ige for Aspergillus fumigatus</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>676</th>
+          <td>Specific ige for drug</td>
+          <td>1550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>677</th>
+          <td>Specific ige for milk</td>
+          <td>1000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>678</th>
+          <td>Sputum C/S</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>679</th>
+          <td>Stone Analysis</td>
+          <td>80 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>680</th>
+          <td>Stool Analysis</td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>681</th>
+          <td>Stool C/S</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>682</th>
+          <td>Strox</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>683</th>
+          <td>Swab C/S</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>684</th>
+          <td>Synovial Fluid Cells</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>685</th>
+          <td>Synovial Fluid Crystals</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>686</th>
+          <td>Synovial Fluid Examination</td>
+          <td>130 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>687</th>
+          <td>Synovial Fluid Glucose</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>688</th>
+          <td>Synovial Fluid LDH</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>689</th>
+          <td>Synovial Fluid Protein</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>690</th>
+          <td>Synovial Fluid RF</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>691</th>
+          <td>Synovial Fluid Uric Asid</td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>692</th>
+          <td>T.B antibody</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>693</th>
+          <td>T.B C/S</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>694</th>
+          <td>T.B Gold (QuantiaFERON)</td>
+          <td>2000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>695</th>
+          <td>T.B DNA by PCR (Qualitative)</td>
+          <td>1100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>696</th>
+          <td>T3</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>697</th>
+          <td>T3 Uptake</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>698</th>
+          <td>T4</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>699</th>
+          <td>TB Examianation (1 sample)Z.N stain</td>
+          <td>50 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>700</th>
+          <td>TB Examianation (2 sample)Z.N </td>
+          <td>50 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+        <tr>
+          <th>701</th>
+          <td>TB Examianation (3 sample)Z.N stain</td>
+          <td>50 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>702</th>
+          <td>TBG (Thyroxine binding globulin)</td>
+          <td>الرجوع للمعمل</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>703</th>
+          <td>TIBC (Total iron binding capacity)</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>704</th>
+          <td>TORCH (IGM)+(IGG)</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>705</th>
+          <td>TORCH (IGM) (Toxo/Rub./CMV HSV1)</td>
+          <td>390 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>706</th>
+          <td>TORCH (IGG) (Toxo/Rub./CMV HSV1)</td>
+          <td>550 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>707</th>
+          <td>TPHA for suphilis</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>708</th>
+          <td>TSH</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>709</th>
+          <td>Tacrolimus (FK 506 - Prograr)</td>
+          <td>1000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>710</th>
+          <td>Tagratol</td>
+          <td>170 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>711</th>
+          <td>Testosterone - Free</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>712</th>
+          <td>Testosterone - Total</td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>713</th>
+          <td>Theophyline</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>714</th>
+          <td>Thrombin Time</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>715</th>
+          <td>Thrombophilia genetic screening.</td>
+          <td>2200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>716</th>
+          <td>Thyroglobulin</td>
+          <td>700 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>717</th>
+          <td>Thyroid Receptor Antibodies (TRAB)</td>
+          <td>850 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>718</th>
+          <td>Tissue Transglutaminase (IgA)</td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>719</th>
+          <td>Tissue Transglutaminase (IgG)</td>
+          <td>800 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>720</th>
+          <td>Total Kappa Light Chain (Serum)</td>
+          <td>450 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>721</th>
+          <td>Total Kappa Light Chain (Urine)</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>722</th>
+          <td>Total Lambda Light Chain (Serum)</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>723</th>
+          <td>Total Lambda Light Chain (Urine)</td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>724</th>
+          <td>Total Leucocytic Count (TLC)</td>
+          <td>30 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>725</th>
+          <td>Total Lipids</td>
+          <td>80 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>726</th>
+          <td>Total Protein</td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>727</th>
+          <td>Total Protein in 24 hrs Urine</td>
+          <td>70 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>728</th>
+          <td>Toxocare canis Ab</td>
+          <td>1000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>729</th>
+          <td>Toxoplasma IgG</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>730</th>
+          <td>Toxoplasma IgM</td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>731</th>
+          <td>Toxoplasma IgG avidity</td>
+          <td>الرجوع للمعمل. </td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>732</th>
+          <td>Tramadol</td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>733</th>
+          <td>Transferrin Saturation </td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr
+<tr>
+          <th>734</th>
+          <td>Transferrin in stool </td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>735</th>
+          <td>Transferrin.. </td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>736</th>
+          <td>Trichinella spiralis ab </td>
+          <td>1000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>737</th>
+          <td>Triglyceride </td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>738</th>
+          <td>Triple Test </td>
+          <td>1100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>739</th>
+          <td>Triple Test for HCV PCR </td>
+          <td>3250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>740</th>
+          <td>Troponin I (Qualitative) </td>
+          <td>180 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>741</th>
+          <td>Troponin I (Quantitative) </td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>742</th>
+          <td>Troponin T (Quantitative) High sensitive </td>
+          <td>300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>743</th>
+          <td>Tumor necrosis factor (TNF-alpha) </td>
+          <td>3250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>744</th>
+          <td>UIBC </td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>745</th>
+          <td>Urate in 24 hrs Urine </td>
+          <td>70 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>746</th>
+          <td>Urea/Creatinine Ratio </td>
+          <td>110 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>747</th>
+          <td>Urea in 24 hrs Urine </td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>748</th>
+          <td>Uric asid </td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>749</th>
+          <td>Uric asid in 24 hrs Urine </td>
+          <td>الرجوع للمعمل </td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>750</th>
+          <td>Uric asid /Creatinine "ratio" </td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>751</th>
+          <td>Urine Analysis </td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>752</th>
+          <td>Urine C/S </td>
+          <td>120 ج.م</td>
+          <td>يمتنع أخذ مضاد حيوي لمدة يومين قبل أخذ العينة</td>
+        </tr>
+<tr>
+          <th>753</th>
+          <td>Urine Immunofixation </td>
+          <td>1400 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>754</th>
+          <td>Urine Osmolality </td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>755</th>
+          <td>VDRL </td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>756</th>
+          <td>VIT B12 (Cyanocobalamine) </td>
+          <td>650 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>757</th>
+          <td>VIT AMIN A ( RETINOL) </td>
+          <td>1950 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>758</th>
+          <td>VITAMIN B6 ( PYRIDOXAPHOSPHATE) </td>
+          <td>1950 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>759</th>
+          <td>VLDL - Cholestesterol </td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>760</th>
+          <td>VMA </td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>761</th>
+          <td>Vaginal Discharge C/S </td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>762</th>
+          <td>Vaginal Discharge C/S </td>
+          <td>500 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>763</th>
+          <td>Varicella (chickenpox) IgM </td>
+          <td>500 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>764</th>
+          <td>Vitamin B 2 </td>
+          <td>2000 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>765</th>
+          <td>Von Willibrand Factor - Activity </td>
+          <td>900 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>766</th>
+          <td>Von Willibrand Factor - Conc (Ag) </td>
+          <td>900 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>767</th>
+          <td>Widal </td>
+          <td>100 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>768</th>
+          <td>Wound C/S </td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>769</th>
+          <td>Zinc (Zn) </td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>770</th>
+          <td>Zinc (Zn) in urine </td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>771</th>
+          <td>alpha 1 antitrypsin (Serum) </td>
+          <td>325 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>772</th>
+          <td>bilirubin (indirect) </td>
+          <td>40 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>773</th>
+          <td>breast Milk C/S </td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>774</th>
+          <td>dysmorophic RBCs </td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>775</th>
+          <td>eGFR </td>
+          <td>150 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>776</th>
+          <td>ear C/S </td>
+          <td>120 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>777</th>
+          <td>ear link. </td>
+          <td>الرجوع للمعمل </td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>778</th>
+          <td>eye C/S </td>
+          <td>120 </td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>779</th>
+          <td>eye link. </td>
+          <td>90 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>780</th>
+          <td>fasting blood glucose (GTC report) </td>
+          <td>20 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>781</th>
+          <td>fish P 53 (17P-) </td>
+          <td>الرجوع للمعمل </td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>782</th>
+          <td>fungus koh </td>
+          <td>الرجوع للمعمل </td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>783</th>
+          <td>lamotrigene (Lamictal) </td>
+          <td>950 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>784</th>
+          <td>lipids profile </td>
+          <td>160 ج.م</td>
+          <td>صيام 12 ساعة (تقبل الحالات من 10 - 14 ساعة)</td>
+        </tr>
+<tr>
+          <th>785</th>
+          <td>lipoprotein electrophoresis </td>
+          <td>250 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>786</th>
+          <td>Ph Pleural fluid </td>
+          <td>70 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>787</th>
+          <td>pathology Paraffin Block. </td>
+          <td>الرجوع للمعمل </td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>788</th>
+          <td>sample Blood Culture </td>
+          <td>200 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>789</th>
+          <td>vit D (1.25 DIHYDROXYCHOLECALCIFEROL) </td>
+          <td>300 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+<tr>
+          <th>790</th>
+          <td>vit D3 (25 HYDROXYCHOLECALCIFEROL)</td>
+          <td>325 ج.م</td>
+          <td>لا يوجد شروط</td>
+        </tr>
+
+
+
+
+
+
+
+      </tbody>
+    </table>
+  </div>
+
+  <div class="bg-dark" style="background-color: #2e3192 !important;">
+    <div class="container">
+      <footer class="py-3 my-4 text-center">
+        <p class="text-white">  (  GIS Project 21 )</p>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/jquery.min.js"></script>
+  <script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+
+  <script>
+    let table = new DataTable('#priceList', {
+      language: {
+        url: 'https://cdn.datatables.net/plug-ins/1.13.4/i18n/ar.json',
+      },
+    });
+  </script>
+</body>
+
+</html>
